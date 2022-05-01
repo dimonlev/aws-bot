@@ -1,0 +1,20 @@
+service: shoppingbot
+
+provider:
+  name: aws
+
+  runtime: nodejs14.x
+
+  region: eu-west-1
+
+functions:
+  shortbot:
+    handler: handler.shoppingbot
+
+    events:
+      - http:
+          path: shoppingbot
+
+          method: post
+
+          cors: true
