@@ -1,4 +1,4 @@
-# Simple telegram bott, deployed with serverless with AWS Lamda
+# Simple telegram bot, deployed with serverless with AWS Lamda
 
 ### How to set Webhook:
 
